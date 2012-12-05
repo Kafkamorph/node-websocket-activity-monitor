@@ -3,6 +3,9 @@ node-websocket-activity-monitor
 
 A new copy of https://github.com/makoto/node-websocket-activity-monitor. Edit to use socket.io.
 
+## What is this?
+A combination of Javascript, nodejs and websocket to deliver a live monitor service of computer I/O.
+
 ## Prerequisite
 
 * node.js
@@ -14,7 +17,9 @@ A new copy of https://github.com/makoto/node-websocket-activity-monitor. Edit to
     open localhost:3000/iostat-client.html # in websocket supported browser
 
 ## How to change to other sysstat command
-    change both server and client side. Change the messaging passing - format() function. Change the client side webSocket.on('message') function to reflect the change.
+change both server and client side. 
+* Change the messaging passing - format() function. 
+* Change the client side webSocket.on('message') function to reflect the change.
 ## How to support NON Websocket supported browsers
     >42< (under construction)
 
