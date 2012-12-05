@@ -20,6 +20,7 @@ A combination of Javascript, nodejs and websocket to deliver a live monitor serv
 change both server and client side. 
 * Change the messaging passing - format() function. 
 * Change the client side webSocket.on('message') function to reflect the change.
+
 ## How to support NON Websocket supported browsers
     >42< (under construction)
 
