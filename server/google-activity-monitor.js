@@ -49,21 +49,10 @@ function format (data) {
       output_array[i] = parseFloat( output_array[i]);
     };
     output_hash = {
-      date:new Date(),
-      disk:{
-        kbt:output_array[24],
-        tps:output_array[20],
-        mbs:output_array[24]/1024
-      },
+        date:new Date(),
       cpu:{
         us:output_array[7],
-        sy:output_array[9],
         id:output_array[12]
-      },
-      load_average:{
-        m1:output_array[7],
-        m5:output_array[9],
-        m15:output_array[12]
       }
     }
     return JSON.stringify(output_hash);
